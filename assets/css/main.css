@@ -527,13 +527,13 @@ svg path {
 #hero .wrapper .welcome {
     width: 45%;
 }
-#hero .wrapper .welcome:after {
+/* #hero .wrapper .welcome:after {
     content: "";
     display: block;
     width: 1px;
     height: 70px;
-    /* background-color: #111; */
-}
+    background-color: #111;
+} */
 #hero .wrapper .welcome h1 {
     margin-top: 0;
     margin-bottom: 30px;
@@ -857,13 +857,13 @@ svg path {
 #featured .wrapper .blurb {
     width: 45%;
 }
-#featured .wrapper .blurb:after {
+/* #featured .wrapper .blurb:after {
     content: "";
     display: inline-block;
     width: 1px;
     height: 70px;
     background-color: #111;
-}
+} */
 #featured .wrapper .blurb h2 {
     margin-top: 0;
     margin-bottom: 30px;
