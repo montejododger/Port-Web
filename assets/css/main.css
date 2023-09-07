@@ -860,7 +860,7 @@ svg path {
     align-items: center;
 }
 #featured .wrapper .blurb {
-    width: 45%;
+    width: 95%;
 }
 /* #featured .wrapper .blurb:after {
     content: "";
@@ -1236,13 +1236,18 @@ svg path {
 }
 
 .skills-list {
-    list-style-type: none; /* Remove bullet points */
-    padding: 0; /* Remove padding */
-    display: grid; /* Use grid layout */
-    grid-template-columns: repeat(4, 1fr); /* 4 columns */
-    gap: 16px; /* Gap between grid items */
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    font-family: "Raleway", serif;
 }
 
 .skill-icon {
-    text-align: center; /* Center the text and icon */
+    text-align: center;
+}
+
+.skill-icon i {
+    font-size: 2em;
 }
