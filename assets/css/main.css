@@ -230,7 +230,7 @@ th {
 }
 body {
     background-color: #fff;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.6;
     font-family: "LMRomanSlant10", serif;
     color: #111;
@@ -669,7 +669,6 @@ svg path {
     margin-bottom: 45px;
 }
 #about .wrapper .blurb .social {
-
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -679,6 +678,12 @@ svg path {
     -webkit-justify-content: space-around;
     -ms-flex-pack: justify;
     justify-content: space-around;
+
+    padding: 10px;
+}
+
+.projects-blurb {
+    width: 100% !important;
 }
 #about .wrapper .blurb .social a {
     padding-top: 5px;
@@ -1217,12 +1222,27 @@ svg path {
 }
 
 #about .wrapper {
-    overflow: scroll;
-
+    /* overflow: scroll; */
 }
-.about{
+.about {
     display: flex;
     flex-direction: column;
-    overflow: scroll;
     height: 90%;
+}
+
+.about-font {
+    font-family: "Raleway", serif;
+    overflow: scroll;
+}
+
+.skills-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 16px; /* Gap between grid items */
+}
+
+.skill-icon {
+    text-align: center; /* Center the text and icon */
 }
