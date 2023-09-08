@@ -1073,7 +1073,7 @@ svg path {
     position: relative;
     width: 1440px;
     max-width: 95%;
-    height: 600px;
+    height: 650px;
     margin: 30px auto;
     background-color: #efefef;
     overflow: hidden;
@@ -1245,9 +1245,10 @@ svg path {
     font-size: 12px;
 }
 
-#about .wrapper {
-    /* overflow: scroll; */
-}
+/* #about .wrapper {
+    overflow: scroll;
+} */
+
 .about {
     display: flex;
     flex-direction: column;
@@ -1278,9 +1279,21 @@ svg path {
 
 .resume-button{
     font-family: Raleway, Helvetica, sans-serif;
+    text-decoration: underline;
 
 }
 
 #resume{
     font-family: Raleway, Helvetica, sans-serif;
+}
+
+#contact .wrapper a > button {
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0;
+    background-color: #111;
 }
