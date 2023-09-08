@@ -1200,6 +1200,21 @@ svg path {
     border-radius: 0;
     background-color: #111;
 }
+
+/* Resume button */
+
+#contact .wrapper button {
+    width: 51%;
+    height: 40px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0;
+    background-color: #111;
+}
+
+
 @media (max-width: 640px) {
     #contact .wrapper form input[type="email"],
     #contact .wrapper form input[type="text"] {
