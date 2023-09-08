@@ -644,8 +644,13 @@ svg path {
 }
 #about .wrapper .blurb {
     display: flex;
+    /* align-items: center; */
     justify-content: center;
     width: 55%;
+}
+#about .wrapper .blurb ul li{
+/* padding-left: 45px; */
+margin-left: 15px;
 }
 #about .wrapper .blurb h2 {
     margin-top: 0;
@@ -740,6 +745,25 @@ svg path {
 }
 @media (max-width: 640px) {
     #about .wrapper .blurb {
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        -ms-grid-row-align: center;
+        /* align-items: center; */
+        text-align: center;
+    }
+
+    #about .wrapper .blurb .proj-social{
+        align-items: center;
+        width: 100%;
+    }
+
+    ul li{
+        padding-left: 0%;
+    }
+}
+@media (max-width: 640px) {
+    #about .wrapper .blurb ul li{
         -webkit-box-align: center;
         -webkit-align-items: center;
         -ms-flex-align: center;
@@ -1296,4 +1320,8 @@ svg path {
     border: none;
     border-radius: 0;
     background-color: #111;
+}
+
+ul{
+    padding-inline-start: 0px;
 }
