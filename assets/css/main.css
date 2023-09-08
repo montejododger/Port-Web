@@ -1132,8 +1132,9 @@ margin-left: 15px;
     justify-content: center;
 }
 #contact .wrapper .blurb {
+    display: flex;
+    align-items: center;
     max-width: 950px;
-    /* margin-top: -45px; */
     text-align: center;
 }
 #contact .wrapper .blurb h2 {
