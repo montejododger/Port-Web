@@ -617,6 +617,10 @@ svg path {
         margin: 15px auto;
     }
 }
+
+.head-about{
+    height: 910px !important;
+}
 #about .wrapper {
     position: relative;
     display: -webkit-box;
@@ -639,11 +643,13 @@ svg path {
     width: 85%;
 }
 #about .wrapper .blurb {
+    display: flex;
+    justify-content: center;
     width: 55%;
 }
 #about .wrapper .blurb h2 {
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     font-size: 42px;
     font-family: "Raleway", Helvetica, sans-serif;
     font-weight: 100;
@@ -673,7 +679,7 @@ svg path {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 180px;
+    width: 125px;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-around;
     -ms-flex-pack: justify;
@@ -684,14 +690,17 @@ svg path {
 
 .projects-blurb {
     width: 100% !important;
+    flex-direction: column;
 }
 #about .wrapper .blurb .social a {
-    padding-top: 5px;
+    width: 30px;
+    height: 30px;
     color: #fff;
     text-decoration: none;
 }
 #about .wrapper .blurb .social i {
     display: block;
+    justify-content: center;
     width: 30px;
     height: 30px;
     font-size: 16px;
@@ -1100,11 +1109,11 @@ svg path {
 }
 #contact .wrapper .blurb {
     max-width: 950px;
-    margin-top: -45px;
+    /* margin-top: -45px; */
     text-align: center;
 }
 #contact .wrapper .blurb h2 {
-    margin-top: 0;
+    margin-top: 20px;
     margin-bottom: 30px;
     font-size: 42px;
     font-family: "Raleway", Helvetica, sans-serif;
@@ -1265,4 +1274,13 @@ svg path {
 
 .skill-icon i {
     font-size: 2em;
+}
+
+.resume-button{
+    font-family: Raleway, Helvetica, sans-serif;
+
+}
+
+#resume{
+    font-family: Raleway, Helvetica, sans-serif;
 }
